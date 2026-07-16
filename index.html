@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric de Souza — Desenvolvedor Web & Analista de BI</title>
+    <meta name="description" content="Portfólio de Eric de Souza: desenvolvimento web (HTML, CSS, JavaScript, React) e Business Intelligence com Power BI, Python e SQL.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="tick-web">&lt;</span>eric.souza<span class="tick-bi">/&gt;</span>
+            </a>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-links">
+                    <li class="hide-mobile"><a href="#stack">Habilidades</a></li>
+                    <li><a href="demos.html">Projetos</a></li>
+                    <li><a href="#contato" class="nav-cta">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO ============ -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Portfólio</p>
+                    <h1>
+                        Eu construo <span class="accent-web">interfaces</span> para a web
+                        e transformo <span class="accent-bi">dados</span> em decisões.
+                    </h1>
+                    <p class="hero-sub">
+                        Sou o Eric de Souza — desenvolvedor web e analista de Business Intelligence.
+                        Crio sites e aplicações do zero, e dashboards em Power BI que dão clareza aos números.
+                    </p>
+                    <div class="hero-tags">
+                        <span class="chip web">Desenvolvimento Web</span>
+                        <span class="chip bi">Business Intelligence</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="demos.html" class="btn btn-primary">
+                            Ver projetos <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-visual-head">
+                        <span>dashboard.pbix</span>
+                        <span class="dots"><span></span><span></span><span></span></span>
+                    </div>
+                    <div class="hero-chart">
+                        <div class="bar"></div>
+                        <div class="bar bi-bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar bi-bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar bi-bar"></div>
+                    </div>
+                    <div class="hero-chart-labels">
+                        <span>jan</span><span>fev</span><span>mar</span><span>abr</span><span>mai</span><span>jun</span>
+                    </div>
+                    <p class="hero-code-line">
+                        <span class="kw">const</span> perfil = { web: <span class="str">"front-end"</span>, dados: <span class="str">"Power BI"</span> };
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ HABILIDADES ============ -->
+        <section id="stack">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Habilidades</p>
+                    <h2>Duas frentes, um objetivo</h2>
+                    <p>Do código à análise: as ferramentas que uso para construir produtos e responder perguntas com dados.</p>
+                </div>
+                <div class="about-grid">
+                    <article class="stack-card card-web reveal">
+                        <h3><i class="fas fa-code" aria-hidden="true"></i> Desenvolvimento Web</h3>
+                        <p>Sites e aplicações web responsivas, do layout à publicação.</p>
+                        <ul class="stack-list">
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="">HTML5</li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="">CSS3</li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="">JavaScript</li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="">React</li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" alt="">WordPress</li>
+                        </ul>
+                    </article>
+                    <article class="stack-card card-bi reveal">
+                        <h3><i class="fas fa-chart-column" aria-hidden="true"></i> Dados & BI</h3>
+                        <p>Dashboards, análise e tratamento de dados para apoiar decisões.</p>
+                        <ul class="stack-list">
+                            <li><i class="fas fa-chart-pie" style="color:#f6b34c" aria-hidden="true"></i>Power BI</li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="">Python</li>
+                            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="">SQL</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PROJETOS EM DESTAQUE ============ -->
+        <section id="projetos">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Projetos em destaque</p>
+                    <h2>Uma amostra do que eu faço</h2>
+                    <p>Um projeto de cada frente. A lista completa, organizada por categoria, está na página de projetos.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card web reveal">
+                        <span class="project-tag">Aplicação Web</span>
+                        <h3>Elance — rede social para músicos</h3>
+                        <p>Plataforma para músicos se conectarem, divulgarem trabalhos e encontrarem parceiros.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/elance/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                            <a class="link-code" href="https://github.com/Erickizz/elance" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i> Código
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card bi reveal">
+                        <span class="project-tag">Dashboard Power BI</span>
+                        <h3>Dashboard de Vendas</h3>
+                        <p>Painel de vendas com indicadores de faturamento e desempenho por período.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/02_Dash_rh/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="projects-cta reveal">
+                    <a href="demos.html" class="btn btn-ghost">
+                        Ver todos os projetos <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTATO ============ -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <h2>Vamos conversar?</h2>
+                    <p>Estou aberto a oportunidades e projetos em desenvolvimento web e análise de dados. Me chame por qualquer um dos canais abaixo.</p>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/eric-souza-273b02310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                        </a>
+                        <a href="mailto:sdani31569@gmail.com">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> E-mail
+                        </a>
+                        <a href="https://github.com/Erickizz" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© 2026 Eric de Souza</span>
+            <span><a href="demos.html">Projetos</a> · <a href="#contato">Contato</a></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos — Eric de Souza</title>
+    <meta name="description" content="Projetos de Eric de Souza organizados em duas categorias: Desenvolvimento Web (sites e aplicações) e Business Intelligence (dashboards em Power BI).">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="tick-web">&lt;</span>eric.souza<span class="tick-bi">/&gt;</span>
+            </a>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-links">
+                    <li class="hide-mobile"><a href="index.html">Início</a></li>
+                    <li><a href="demos.html" aria-current="page">Projetos</a></li>
+                    <li><a href="index.html#contato" class="nav-cta">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container page-header">
+            <p class="eyebrow">Projetos</p>
+            <h1 style="font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; letter-spacing: -0.02em;">
+                Tudo o que eu construí, em duas frentes
+            </h1>
+            <p style="color: var(--muted); max-width: 40rem; margin-top: 0.8rem;">
+                Projetos de <span style="color: var(--web);">Desenvolvimento Web</span> — sites e aplicações —
+                e de <span style="color: var(--bi);">Business Intelligence</span> — dashboards em Power BI e análise de dados.
+            </p>
+        </div>
+
+        <!-- ============ DESENVOLVIMENTO WEB ============ -->
+        <section class="category-section" id="web" aria-labelledby="titulo-web">
+            <div class="container">
+                <div class="category-head reveal">
+                    <div>
+                        <p class="eyebrow web-tick">01 — Desenvolvimento Web</p>
+                        <h2 id="titulo-web">Sites & Aplicações Web</h2>
+                    </div>
+                    <span class="count">3 projetos</span>
+                    <p class="category-desc">Interfaces construídas com HTML, CSS e JavaScript, publicadas e disponíveis para navegar.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card web reveal">
+                        <span class="project-tag">Aplicação Web</span>
+                        <h3>Elance — rede social para músicos</h3>
+                        <p>Plataforma para músicos se conectarem, divulgarem trabalhos e encontrarem parceiros.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/elance/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                            <a class="link-code" href="https://github.com/Erickizz/elance" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i> Código
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card web reveal">
+                        <span class="project-tag">Site</span>
+                        <h3>Soluciona Link</h3>
+                        <p>Site institucional para empresa criadora de soluções tecnológicas.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/Soluciona-Link/index.html" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                            <a class="link-code" href="https://github.com/Erickizz/Soluciona-Link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i> Código
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card web reveal">
+                        <span class="project-tag">Site</span>
+                        <h3>Coleção de Aromas</h3>
+                        <p>Vitrine digital para perfumaria, com foco em apresentação de produtos.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/colecao-aromas/index.html" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                            <a class="link-code" href="https://github.com/Erickizz/colecao-aromas" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i> Código
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ BUSINESS INTELLIGENCE ============ -->
+        <section class="category-section" id="bi" aria-labelledby="titulo-bi">
+            <div class="container">
+                <div class="category-head reveal">
+                    <div>
+                        <p class="eyebrow bi-tick">02 — Business Intelligence</p>
+                        <h2 id="titulo-bi">Dashboards & Análise de Dados</h2>
+                    </div>
+                    <span class="count">3 projetos</span>
+                    <p class="category-desc">Painéis desenvolvidos em Power BI para acompanhar indicadores de vendas e recursos humanos.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card bi reveal">
+                        <span class="project-tag">Dashboard Power BI</span>
+                        <h3>Dashboard de Vendas</h3>
+                        <p>Painel de vendas com indicadores de faturamento e desempenho por período.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/Dashboard_vendas/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card bi reveal">
+                        <span class="project-tag">Dashboard Power BI</span>
+                        <h3>Dashboard de RH</h3>
+                        <p>Painel de recursos humanos com visão de colaboradores e indicadores da área.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/02_Dash_rh_o-antigo-e-o-3/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card bi reveal">
+                        <span class="project-tag">Dashboard Power BI</span>
+                        <h3>Dashboard de Vendas II</h3>
+                        <p>Segunda versão do painel de vendas, com novos visuais e indicadores.</p>
+                        <div class="project-links">
+                            <a class="link-demo" href="https://erickizz.github.io/02_Dash_rh/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver projeto
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CTA ============ -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <h2>Gostou de algum projeto?</h2>
+                    <p>Me chame para conversar sobre desenvolvimento web ou análise de dados.</p>
+                    <div class="contact-links">
+                        <a href="index.html#contato">
+                            <i class="fas fa-arrow-left" aria-hidden="true"></i> Voltar ao portfólio
+                        </a>
+                        <a href="https://github.com/Erickizz" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© 2026 Eric de Souza</span>
+            <span><a href="index.html">Início</a> · <a href="index.html#contato">Contato</a></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
